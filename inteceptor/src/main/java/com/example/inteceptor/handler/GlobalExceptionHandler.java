@@ -13,4 +13,6 @@ public class GlobalExceptionHandler {
     public ResponseEntity authException(){
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
     }
+
+
 }
